@@ -34,7 +34,7 @@ jobs:
       with:
         context: .
         push: true
-        tags: yourdockerhubusername/flask-app:v1
+        tags: nguyenminhhieu2k/flask-app:v1
 
     - name: Logout from Docker Hub
       run: docker logout
